@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pit Wall - GP de São Paulo</title>
+
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- MENU SUPERIOR -->
+    <header class="topbar">
+
+        <a href="#" class="logo">
+            PIT<span>WALL</span>
+        </a>
+
+        <nav class="menu">
+            <a href="#pilotos">Pilotos</a>
+            <a href="#classificacao">Classificação</a>
+            <a href="#ingressos">Ingressos</a>
+        </nav>
+
+        <a href="#ingressos" class="btn btn-primary">
+            Comprar ingresso
+        </a>
+
+    </header>
+
+
+    <!-- DESTAQUE PRINCIPAL -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                AUTÓDROMO DE INTERLAGOS · NOVEMBRO DE 2026
+            </p>
+
+            <h1>
+                GP DE
+                <span>SÃO PAULO</span>
+            </h1>
+
+            <p class="hero-description">
+                71 voltas, 22 carros no grid e a torcida brasileira
+                empurrando o Bortoleto na reta.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#ingressos" class="btn btn-primary">
+                    Garantir meu lugar
+                </a>
+
+                <a href="#classificacao" class="btn btn-outline">
+                    Ver classificação
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-photo">
+
+            <div class="track-info">
+
+                <div class="info">
+                    <strong>71</strong>
+                    <span>Voltas</span>
+                </div>
+
+                <div class="info">
+                    <strong>4.309</strong>
+                    <span>Km por volta</span>
+                </div>
+
+                <div class="info">
+                    <strong>15</strong>
+                    <span>Curvas</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ZEBRA DA PISTA -->
+    <div class="kerb"></div>
+    
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container">
+
+        <!-- GRID DE PILOTOS -->
+        <section id="pilotos" class="section">
+
+            <h2 class="section-title">
+                <span>01</span> Grid de pilotos
+            </h2>
+
+            <div class="drivers">
+
+                <article class="driver-card team-ferrari">
+                    <span class="car-number">16</span>
+                    <p>CHARLES <strong>LECLERC</strong></p>
+                    <small>Ferrari</small>
+                </article>
+
+                <article class="driver-card team-mclaren">
+                    <span class="car-number">81</span>
+                    <p>OSCAR <strong>PIASTRI</strong></p>
+                    <small>McLaren</small>
+                </article>
+
+                <article class="driver-card team-mercedes">
+                    <span class="car-number">63</span>
+                    <p>GEORGE <strong>RUSSELL</strong></p>
+                    <small>Mercedes</small>
+                </article>
+
+                <article class="driver-card team-audi">
+                    <span class="car-number">5</span>
+                    <p>GABRIEL <strong>BORTOLETO</strong></p>
+                    <small>Audi</small>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- CLASSIFICAÇÃO -->
+        <section id="classificacao" class="section">
+
+            <h2 class="section-title">
+                <span>02</span> Classificação
+            </h2>
+
+            <div class="table-container">
+
+                <table class="race-table">
+
+                    <thead>
+                        <tr>
+                            <th>POS.</th>
+                            <th>PILOTO</th>
+                            <th>EQUIPE</th>
+                            <th>PONTOS</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Charles Leclerc</td>
+                            <td>Ferrari</td>
+                            <td>25</td>
+                        </tr>
+
+                        <tr>
+                            <td>02</td>
+                            <td>Oscar Piastri</td>
+                            <td>McLaren</td>
+                            <td>18</td>
+                        </tr>
+
+                        <tr>
+                            <td>03</td>
+                            <td>George Russell</td>
+                            <td>Mercedes</td>
+                            <td>15</td>
+                        </tr>
+
+                        <tr>
+                            <td>04</td>
+                            <td>Gabriel Bortoleto</td>
+                            <td>Audi</td>
+                            <td>12</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- FORMULÁRIO DE INGRESSOS -->
+        <section id="ingressos" class="section">
+
+            <h2 class="section-title">
+                <span>03</span> Garanta seu ingresso
+            </h2>
+
+            <p class="form-description">
+                Escolha seu lugar e venha viver a emoção do GP de São Paulo!
+            </p>
+
+            <form class="ticket-form">
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="setor">Escolha o setor</label>
+                        <select id="setor" name="setor" required>
+                            <option value="">Selecione um setor</option>
+                            <option value="a">Setor A</option>
+                            <option value="b">Setor B</option>
+                            <option value="m">Setor M</option>
+                            <option value="r">Setor R</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade de ingressos</label>
+                        <input
+                            type="number"
+                            id="quantidade"
+                            name="quantidade"
+                            min="1"
+                            max="5"
+                            value="1"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Comprar ingressos
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <p>
+            PITWALL · Projeto de estudo de HTML e CSS ·
+            Feito por <strong>LUISA GONÇALVES ESTEVES</strong>
+        </p>
+    </footer>
+
+</body>
+</html>
